@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-meta-exchange-long-lived-token"
+description = "Enables the meta_exchange_long_lived_token command without any pre-configured scope."
+commands.allow = ["meta_exchange_long_lived_token"]
+
+[[permission]]
+identifier = "deny-meta-exchange-long-lived-token"
+description = "Denies the meta_exchange_long_lived_token command without any pre-configured scope."
+commands.deny = ["meta_exchange_long_lived_token"]

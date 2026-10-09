@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-gemini-web-complete"
+description = "Enables the gemini_web_complete command without any pre-configured scope."
+commands.allow = ["gemini_web_complete"]
+
+[[permission]]
+identifier = "deny-gemini-web-complete"
+description = "Denies the gemini_web_complete command without any pre-configured scope."
+commands.deny = ["gemini_web_complete"]

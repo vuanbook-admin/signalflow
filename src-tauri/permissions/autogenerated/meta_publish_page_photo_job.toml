@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-meta-publish-page-photo-job"
+description = "Enables the meta_publish_page_photo_job command without any pre-configured scope."
+commands.allow = ["meta_publish_page_photo_job"]
+
+[[permission]]
+identifier = "deny-meta-publish-page-photo-job"
+description = "Denies the meta_publish_page_photo_job command without any pre-configured scope."
+commands.deny = ["meta_publish_page_photo_job"]

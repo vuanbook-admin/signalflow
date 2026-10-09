@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-chatgpt-web-complete"
+description = "Enables the chatgpt_web_complete command without any pre-configured scope."
+commands.allow = ["chatgpt_web_complete"]
+
+[[permission]]
+identifier = "deny-chatgpt-web-complete"
+description = "Denies the chatgpt_web_complete command without any pre-configured scope."
+commands.deny = ["chatgpt_web_complete"]

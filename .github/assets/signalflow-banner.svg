@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="t d">
+  <title id="t">SignalFlow by Meton Labs</title>
+  <desc id="d">Review-first AI social marketing for agencies</desc>
+  <defs>
+    <radialGradient id="glow" cx="78%" cy="40%" r="60%">
+      <stop offset="0" stop-color="#E8A93A" stop-opacity=".22"/>
+      <stop offset=".45" stop-color="#E8A93A" stop-opacity=".05"/>
+      <stop offset="1" stop-color="#E8A93A" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fade" x1="0" x2="1">
+      <stop offset="0" stop-color="#F1EEE6" stop-opacity="0"/>
+      <stop offset="1" stop-color="#F1EEE6" stop-opacity=".22"/>
+    </linearGradient>
+    <clipPath id="card"><rect width="1280" height="360" rx="24"/></clipPath>
+  </defs>
+  <g clip-path="url(#card)">
+  <rect width="1280" height="360" rx="24" fill="#0B0E13"/>
+  <rect width="1280" height="360" rx="24" fill="url(#glow)"/>
+  <!-- orbit rings, radii grow by the golden ratio -->
+  <g fill="none" stroke="url(#fade)" stroke-width="1.2" transform="translate(1000 180)">
+    <ellipse rx="62" ry="22" transform="rotate(-18)"/>
+    <ellipse rx="100" ry="36" transform="rotate(-18)"/>
+    <ellipse rx="162" ry="58" transform="rotate(-18)"/>
+    <ellipse rx="262" ry="94" transform="rotate(-18)"/>
+  </g>
+  <g transform="translate(1000 180)">
+    <circle r="9" fill="#E8A93A"/>
+    <circle cx="95" cy="-30" r="4" fill="#F1EEE6" opacity=".85"/>
+    <circle cx="-150" cy="52" r="3" fill="#F1EEE6" opacity=".6"/>
+    <circle cx="236" cy="-112" r="2.5" fill="#E8A93A" opacity=".8"/>
+  </g>
+  </g>
+  <!-- Meton Labs mark -->
+  <g transform="translate(84 102) scale(1.56) translate(-10 -10)">
+    <path fill="#F1EEE6" d="M96.797,93.853A50,50 0 1,0 23.203,93.853L23.203,71.803A11.803,11.803 0 0,1 46.810,71.803L46.810,108.229A50,50 0 0,0 58.600,109.980L58.600,71.803A19.098,19.098 0 0,1 96.797,71.803Z"/>
+    <path fill="#F1EEE6" fill-rule="evenodd" d="M84.344,76.962A11.803,11.803 0 1,0 60.737,76.962A11.803,11.803 0 1,0 84.344,76.962ZM76.647,73.774A7.295,7.295 0 1,0 62.057,73.774A7.295,7.295 0 1,0 76.647,73.774Z"/>
+    <circle fill="#E8A93A" cx="71.322" cy="71.803" r="4.508"/>
+  </g>
+  <g font-family="'Space Grotesk','Segoe UI',system-ui,-apple-system,Helvetica,Arial,sans-serif">
+    <text x="276" y="176" fill="#F1EEE6" font-size="76" font-weight="600" letter-spacing="-2">SignalFlow</text>
+    <text x="280" y="222" fill="#A9A498" font-size="26">Review-first AI social marketing for agencies</text>
+    <text x="280" y="270" fill="#E8A93A" font-size="17" letter-spacing="3" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace">BY METON LABS · METONLABS.SPACE</text>
+  </g>
+</svg>

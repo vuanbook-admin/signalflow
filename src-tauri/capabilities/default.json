@@ -1,0 +1,32 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Capability for the main window",
+  "windows": [
+    "main"
+  ],
+  "permissions": [
+    "core:default",
+    "opener:default",
+    "deep-link:default",
+    "allow-greet",
+    "allow-export-json",
+    "allow-secret-set",
+    "allow-secret-get",
+    "allow-secret-delete",
+    "allow-meta-discover-accounts",
+    "allow-meta-verify-page",
+    "allow-meta-save-access-token",
+    "allow-meta-exchange-long-lived-token",
+    "allow-meta-publish-unpublished-page-post",
+    "allow-meta-publish-page-job",
+    "allow-meta-publish-page-photo-job",
+    "allow-meta-publish-instagram-job",
+    "allow-gemini-web-open",
+    "allow-gemini-web-status",
+    "allow-gemini-web-complete",
+    "allow-chatgpt-web-open",
+    "allow-chatgpt-web-status",
+    "allow-chatgpt-web-complete"
+  ]
+}

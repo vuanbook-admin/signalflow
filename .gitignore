@@ -1,0 +1,54 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-electron
+dist-electron-staging
+dist-ssr
+*.local
+.worktrees/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Local credentials and environment files
+.env
+.env.*
+!.env.example
+
+# Python runtime artifacts
+__pycache__/
+*.py[cod]
+desktop/.signalflow-keychain
+signalflow-control-plane.sqlite3
+*.sqlite3
+*.sqlite
+*.db
+
+# Local browser, orchestration and generated evidence caches
+.playwright-cli/
+.superpowers/
+output/
+src-tauri/target/
+
+# Scratch scripts, agent hand-off logs and stray build output
+.tmp*
+/MANUS_*.md
+/manus-*.txt
+/hermes-*.txt
+/index-*.js

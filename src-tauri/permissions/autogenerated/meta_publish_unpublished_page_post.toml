@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-meta-publish-unpublished-page-post"
+description = "Enables the meta_publish_unpublished_page_post command without any pre-configured scope."
+commands.allow = ["meta_publish_unpublished_page_post"]
+
+[[permission]]
+identifier = "deny-meta-publish-unpublished-page-post"
+description = "Denies the meta_publish_unpublished_page_post command without any pre-configured scope."
+commands.deny = ["meta_publish_unpublished_page_post"]

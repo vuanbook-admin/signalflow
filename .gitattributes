@@ -1,0 +1,8 @@
+# Managed-browser automation modules are encrypted with git-crypt.
+desktop/account-browser.cjs filter=git-crypt diff=git-crypt
+desktop/account-browser.node.cjs filter=git-crypt diff=git-crypt
+desktop/chrome-browser.cjs filter=git-crypt diff=git-crypt
+desktop/chrome-browser.node.cjs filter=git-crypt diff=git-crypt
+desktop/drive-media.cjs filter=git-crypt diff=git-crypt
+desktop/drive-media.test.mjs filter=git-crypt diff=git-crypt
+desktop/drive-cdp.test.mjs filter=git-crypt diff=git-crypt

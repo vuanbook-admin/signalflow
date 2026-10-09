@@ -1,0 +1,38 @@
+{
+  "name": "social-marketing-automation-app",
+  "productName": "SignalFlow",
+  "description": "SignalFlow social marketing operating system",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "main": "desktop/main.cjs",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "test": "vitest run",
+    "preview": "vite preview",
+    "electron": "electron desktop/main.cjs",
+    "migrate:env": "node scripts/migrate-keychain-to-env.mjs",
+    "worker:local": "node scripts/run-local-worker.mjs",
+    "build:electron": "pnpm build && node scripts/build-electron-staging.mjs && node scripts/check-electron-staging.mjs && node scripts/package-electron.mjs",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2",
+    "@tauri-apps/plugin-deep-link": "~2.4.9",
+    "@tauri-apps/plugin-opener": "^2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@electron/packager": "^20.3.0",
+    "@tauri-apps/cli": "^2",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.6.0",
+    "electron": "^43.4.1",
+    "typescript": "~5.8.3",
+    "vite": "^7.0.4",
+    "vitest": "^4.1.10"
+  }
+}

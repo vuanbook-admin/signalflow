@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-meta-save-access-token"
+description = "Enables the meta_save_access_token command without any pre-configured scope."
+commands.allow = ["meta_save_access_token"]
+
+[[permission]]
+identifier = "deny-meta-save-access-token"
+description = "Denies the meta_save_access_token command without any pre-configured scope."
+commands.deny = ["meta_save_access_token"]

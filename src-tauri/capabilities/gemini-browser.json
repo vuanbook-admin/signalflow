@@ -1,0 +1,17 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "gemini-browser",
+  "description": "Capability for the managed Gemini webview result callback",
+  "windows": [
+    "gemini-browser"
+  ],
+  "remote": {
+    "urls": [
+      "https://gemini.google.com/**"
+    ]
+  },
+  "permissions": [
+    "core:default",
+    "allow-gemini-web-result"
+  ]
+}
